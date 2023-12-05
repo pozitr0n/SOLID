@@ -69,6 +69,7 @@ func getTest(rectangle: Rectangle) {
  
   // Выводим в консоль результат.
   print("Expected area = \(w * 10). Result = \(rectangle.getArea())")
+    
 }
 
 let test = Rectangle(w: 2, l: 3)
