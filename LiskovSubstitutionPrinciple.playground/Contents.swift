@@ -50,6 +50,8 @@ class Square: Rectangle {
         super.setLength(l: l)
     }
      
+    // Переопределенные методы родителя
+    //
     override func setWidth(w: Int) {
         super.setWidth(w: w)
     }
