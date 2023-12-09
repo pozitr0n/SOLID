@@ -21,9 +21,11 @@ class Human: WorkerProtocol, SleepProtocol {
 }
  
 class Cyborg: WorkerProtocol {
+    
   func work(unit: String) {
     print("\(unit) work")
   }
+    
 }
  
 let jack = Human()
