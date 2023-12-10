@@ -34,6 +34,7 @@ class Rectangle {
   func getArea() -> Int {
     return width * length
   }
+    
 }
 
 // Сущность квадрат (наследник).
