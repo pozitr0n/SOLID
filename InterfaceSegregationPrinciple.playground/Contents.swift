@@ -11,13 +11,15 @@ protocol SleepProtocol {
 }
  
 class Human: WorkerProtocol, SleepProtocol {
-  func work(unit: String) {
-    print("\(unit) work")
-  }
- 
-  func sleep(unit: String) {
-    print("\(unit) sleep")
-  }
+    
+    func work(unit: String) {
+        print("\(unit) work")
+    }
+    
+    func sleep(unit: String) {
+        print("\(unit) sleep")
+    }
+    
 }
  
 class Cyborg: WorkerProtocol {
