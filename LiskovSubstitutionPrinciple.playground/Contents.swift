@@ -4,36 +4,37 @@ import Foundation
 
 class Rectangle {
  
-  // Приватные свойства.
-  private var width: Int
-  private var length: Int
- 
-  // Инициализатор родителя.
-  init (w: Int, l: Int) {
-    width = w
-    length = l
-  }
- 
-  // Методы.
-  func setWidth(w: Int) {
-    width = w
-  }
- 
-  func setLength (l: Int) {
-    length = l
-  }
- 
-  func getWidth() -> Int {
-    return width
-  }
- 
-  func getLength () -> Int {
-    return length
-  }
- 
-  func getArea() -> Int {
-    return width * length
-  }
+    // Приватные свойства.
+    private var width: Int
+    private var length: Int
+    
+    // Инициализатор родителя
+    //
+    init (w: Int, l: Int) {
+        width = w
+        length = l
+    }
+    
+    // Методы.
+    func setWidth(w: Int) {
+        width = w
+    }
+    
+    func setLength (l: Int) {
+        length = l
+    }
+    
+    func getWidth() -> Int {
+        return width
+    }
+    
+    func getLength () -> Int {
+        return length
+    }
+    
+    func getArea() -> Int {
+        return width * length
+    }
     
 }
 
