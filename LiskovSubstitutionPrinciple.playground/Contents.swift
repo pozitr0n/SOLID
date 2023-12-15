@@ -4,7 +4,8 @@ import Foundation
 
 class Rectangle {
  
-    // Приватные свойства.
+    // Приватные свойства
+    //
     private var width: Int
     private var length: Int
     
