@@ -25,7 +25,7 @@ class Human: WorkerProtocol, SleepProtocol {
 class Cyborg: WorkerProtocol {
     
   func work(unit: String) {
-    print("\(unit) work")
+      print("\(unit) work")
   }
     
 }
